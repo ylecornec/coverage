@@ -13,6 +13,7 @@ depends: [
   "ocaml"
   "dune" {>= "3.4"}
   "odoc" {with-doc}
+  "bisect_ppx" {dev & >= "2.5.0"}
 ]
 build: [
   ["dune" "subst"] {dev}
